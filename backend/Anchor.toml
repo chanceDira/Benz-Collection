@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.localnet]
+backend = "FqSk7oCrBdrowe6yaLi7fUw1VbHyfxkXUuyDuWtSgEki"
+# HaN9QgnKfSybk35ypJjFDJNd9nU2JtDb9XELZaydxFN9 || Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS
+# Program Id: FqSk7oCrBdrowe6yaLi7fUw1VbHyfxkXUuyDuWtSgEki
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/livesetup/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
